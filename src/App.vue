@@ -1,19 +1,32 @@
 <script lang="ts">
-    import Vue from 'vue';
-    export default Vue.extend({
-        mpType: 'app',
-        onLaunch() {
-            console.log('App Launch')
-        },
-        onShow() {
-            console.log('App Show')
-        },
-        onHide() {
-            console.log('App Hide')
-        }
-    });
+export default {
+  onLaunch: function() {
+    console.log('App Launch')
+  },
+  onShow: function() {
+    console.log('App Show')
+  },
+  onHide: function() {
+    console.log('App Hide')
+  },
+  computed: {
+  },
+  watch: {
+
+  },
+  methods: {
+    // 获取消息数
+  }
+
+}
 </script>
 
 <style>
-    /*每个页面公共css */
+@import url("common/css/common.css");
+@import url("common/scss/globalStyle.scss");
+/*每个页面公共css */
+.scroll-text .uni-noticebar {
+  margin: 0 !important;
+  padding: 0 !important;
+}
 </style>
