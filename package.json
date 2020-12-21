@@ -57,6 +57,8 @@
     "@dcloudio/uni-stat": "^2.0.0-29820201110001",
     "@vue/shared": "^3.0.0",
     "core-js": "^3.6.5",
+    "eslint": "^7.16.0",
+    "eslint-plugin-vue": "^7.3.0",
     "flyio": "^0.6.2",
     "regenerator-runtime": "^0.12.1",
     "vue": "^2.6.11",
