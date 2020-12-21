@@ -50,6 +50,7 @@
   "mp-weixin": {
     "usingComponents": true,
     "appid": "wx0f4cfbdf66ca5bff",
+    "cloudfunctionRoot":"cloudfunctions",
     "setting": {
       "urlCheck": true
     }
